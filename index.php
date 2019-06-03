@@ -18,6 +18,9 @@ switch($controller){
     case false:
     controller("home");
     break;
+    case 'signin':
+    controller("signin");
+    break;
     case 'signup':
     controller("signup");
     break;

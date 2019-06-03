@@ -8,5 +8,6 @@
     "controller",
     "auth",
     "method",
-    "segment"
+    "segment",
+    "redirect"
 ]
