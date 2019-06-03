@@ -1,0 +1,12 @@
+[
+    "inc",
+    "error",
+    "migrate",
+    "db",
+    "env",
+    "view",
+    "controller",
+    "auth",
+    "method",
+    "segment"
+]
