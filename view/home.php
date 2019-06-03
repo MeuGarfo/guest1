@@ -20,7 +20,11 @@ view('inc/header',$data);
                         print '<hr><p>';
                         print '<small><b>';
                         e($mensagem['name']);
-                        print '</b> escreveu:</small><br>';
+                        print '</b> escreveu em ';
+                        print date('d/M/Y',$mensagem['created_at']);
+                        print ' às ';
+                        print date('g:i A',$mensagem['created_at']);
+                        print ':</small><br>';
                         e($mensagem['body']);
                         print '</p>';
                     }
