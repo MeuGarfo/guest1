@@ -1,7 +1,7 @@
 <div class="row">
     <div class="span6">
         <h1>
-            <a href="http://<?php print $_ENV['SITE_URL'] ?>">
+            <a href="<?php print $_ENV['SITE_URL'] ?>">
                 <?php print $_ENV['SITE_NAME'] ?>
             </a>
         </h1>

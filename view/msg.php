@@ -12,15 +12,9 @@ require 'inc/header.php';
                 print '<h1>'.$title.'</h1>';
                 print '<p>'.$msg.'</p>';
                 ?>
-                <?php
-                if($title!='Erro'){
-                    ?>
-                    <p>
-                        <a href="javascript:window.history.back(1);">Voltar</a>
-                    </p>
-                    <?php
-                }
-                ?>
+                <p>
+                    <a href="javascript:window.history.back(1);">Voltar</a>
+                </p>
             </div><!--span6-->
             <?php
             if($title=='Erro'){
