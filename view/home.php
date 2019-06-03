@@ -17,14 +17,12 @@ view('inc/header',$data);
                 count($mensagens)>0){
                     print '<h2>Mensagens</h2>';
                     foreach ($mensagens as $mensagem) {
-                        print '<hr><p>';
+                        print '<hr>';
                         print '<small><b>';
                         e($mensagem['name']);
                         print '</b> escreveu em ';
-                        print date('d/M/Y',$mensagem['created_at']);
-                        print ' às ';
-                        print date('g:i A',$mensagem['created_at']);
-                        print ':</small><br>';
+                        print date('d/M/Y \a\s g:i A',$mensagem['created_at']);
+                        print ':</small><p>';
                         e($mensagem['body']);
                         print '</p>';
                     }
