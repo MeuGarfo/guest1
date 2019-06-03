@@ -1,7 +1,7 @@
 <?php
 $db=db();
 $join=[
-    // The row user_id from table mensagens is equal the row id from table user
+    //o user_id da tabela mensagens é igual ao id da tabela users
     "[>]users" => ["user_id" => "id"],
 ];
 $cols=[
