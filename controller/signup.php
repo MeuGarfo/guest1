@@ -24,7 +24,8 @@ if(isset($result['error'][0])){
 }
 $data=[
     'title'=>$title,
-    'msg'=>$msg
+    'msg'=>$msg,
+    'user'=>isAuth()
 ];
 view('msg',$data);
 ?>

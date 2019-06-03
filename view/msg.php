@@ -4,7 +4,7 @@ require 'inc/header.php';
 <body>
     <div class="container">
         <?php
-        require 'inc/top.php';
+        view("inc/top",$data);
         ?>
         <div class="row">
             <div class="span9 text-center">

@@ -4,21 +4,22 @@ view('inc/header',$data);
 <body>
     <div class="container">
         <?php
-        require 'inc/top.php';
+        view("inc/top",$data);
         ?>
         <div class="row">
             <div class="span9">
                 <?php
+                if($user){
+                    view('form/criar-mensagem');
+                }
                 if(isset($mensagens) &&
                 is_array($mensagens) &&
                 count($mensagens)>0){
-                    print '<ul>';
                     foreach ($mensagens as $mensagem) {
-                        print '<li>';
+                        print '<hr><p>';
                         print $mensagem['body'];
-                        print '</li>';
+                        print '</p>';
                     }
-                    print '</ul>';
                 }else{
                     print '<p class="text-center">';
                     print 'Nenhum mensagem encontrada';

@@ -1,10 +1,13 @@
 <?php
-$user=signin();
-if($user){
-    //retorna void
-    $title='Sucesso';
-    $msg='Conta criada com sucesso. Faça login para continuar.';
+$result=signin();
+if(isset($result['error'][0])){
+    $data=[
+        'title'=>'Erro',
+        'msg'=>'Dados de login incorretos.',
+        'user'=>isAuth()
+    ];
+    view('msg',$data);
 }else{
-
+    redirect($_ENV['SITE_URL']);
 }
- ?>
+?>

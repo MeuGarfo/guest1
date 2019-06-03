@@ -8,7 +8,11 @@
     </div>
     <div class="span6">
         <?php
-        view('form/signin-horizontal');
+        if($user){
+            view('menu/top',$data);
+        }else{
+            view('form/signin-horizontal');
+        }
         ?>
     </div>
 </div>
