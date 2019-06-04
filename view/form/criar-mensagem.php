@@ -7,7 +7,7 @@ $action=$_ENV['SITE_URL'].'mensagem';
         <label for="mensagem-body">Mensagem</label>
         <input class="input-block-level" type="text" name="body" value="" id="mensagem-body" maxlength="60" required>
         <div class="text-center">
-            <button type="submit" name="button">Enviar mensagem</button>
+            <button type="submit" class="btn" name="button">Enviar mensagem</button>
         </div>
     </fieldset>
 </form>

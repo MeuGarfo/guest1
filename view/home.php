@@ -21,7 +21,7 @@ view('inc/header',$data);
             if(isset($mensagens) &&
             is_array($mensagens) &&
             count($mensagens)>0){
-                print '<h2>Mensagens</h2>';
+                print '<h4>Mensagens</h4>';
                 foreach ($mensagens as $mensagem) {
                     print '<hr>';
                     print '<small><b>';

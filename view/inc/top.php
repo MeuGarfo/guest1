@@ -1,6 +1,6 @@
 <div class="row visible-desktop">
     <div class="offset2 span2">
-        <h1>
+        <h1 class="logo">
             <a href="<?php print $_ENV['SITE_URL'] ?>">
                 <?php print $_ENV['SITE_NAME'] ?>
             </a>
@@ -18,7 +18,7 @@
 </div><!--row-->
 <div class="row visible-tablet visible-phone">
     <div class="span12 text-center">
-        <h1>
+        <h1 class="logo">
             <a href="<?php print $_ENV['SITE_URL'] ?>">
                 <?php print $_ENV['SITE_NAME'] ?>
             </a>
