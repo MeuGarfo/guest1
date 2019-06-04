@@ -1,5 +1,4 @@
 <?php
-//basic
 require 'basic/basic.php';
 inc([
     'auth',
@@ -13,10 +12,8 @@ inc([
     'segment',
     'view'
 ]);
-//regras
 error();
-$controller=segment(2);
-switch($controller){
+switch(segment(2)){
     case false:controller("home");break;
     case 'logout':controller("logout");break;
     case 'mensagem':controller("mensagem");break;
