@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="span6">
+    <div class="offset2 span2">
         <h1>
             <a href="<?php print $_ENV['SITE_URL'] ?>">
                 <?php print $_ENV['SITE_NAME'] ?>

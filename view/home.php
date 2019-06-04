@@ -9,9 +9,9 @@ view('inc/header',$data);
         <div class="row">
             <div class="<?php
             if($user){
-                print 'offset3 span6';
+                print 'offset2 span8';
             }else{
-                print 'span9';
+                print 'offset2 span5';
             }
             ?>">
             <?php
@@ -31,7 +31,7 @@ view('inc/header',$data);
                         e($mensagem['name']);
                     }
                     print '</b> escreveu em ';
-                    print date('d/M/Y \a\s g:i A',$mensagem['created_at']);
+                    print date('d/M/Y \a\s G:i',$mensagem['created_at']);
                     if($user && $user['id']==$mensagem['user_id']){
                         $link=$_ENV['SITE_URL'].'mensagem/'.$mensagem['id'];
                         $link=$link.'/apagar';
@@ -47,14 +47,12 @@ view('inc/header',$data);
                 print '</p>';
             }
             ?>
-        </div><!--span6-->
-        <div class="span3">
-            <?php
-            if(!$user){
-                view('form/signup-vertical',$data);
-            }
-            ?>
         </div>
+        <?php
+        if(!$user){
+            view('form/signup-vertical',$data);
+        }
+        ?>
     </div>
 </div>
 </body>
