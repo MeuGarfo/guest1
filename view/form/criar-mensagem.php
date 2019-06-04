@@ -1,11 +1,13 @@
-<h2>Criar mensagem</h2>
 <?php
 $action=$_ENV['SITE_URL'].'mensagem';
 ?>
 <form class="form-vertical" action="<?php print $action; ?>" method="post" id="mensagem">
+<fieldset>
+    <legend>Criar mensagem</legend>
     <label for="mensagem-body">Mensagem</label>
-    <input type="text" name="body" value="" id="mensagem-body" maxlength="60" required>
+    <input class="input-block-level" type="text" name="body" value="" id="mensagem-body" maxlength="60" required>
     <button type="submit" name="button">Enviar mensagem</button>
+</fieldset>
 </form>
 <script type="text/javascript">
 document.getElementById('mensagem-body').onkeydown = function(e){

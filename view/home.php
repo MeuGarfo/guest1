@@ -50,7 +50,9 @@ view('inc/header',$data);
         </div>
         <?php
         if(!$user){
+            print '<div class="span3 visible-desktop">';
             view('form/signup-vertical',$data);
+            print '</div>';
         }
         ?>
     </div>

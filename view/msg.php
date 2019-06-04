@@ -8,6 +8,7 @@ require 'inc/header.php';
         ?>
         <div class="row">
             <?php
+        
             if($title=='Erro'){
                 print '<div class="offset2 span5 text-center">';
             }else{
