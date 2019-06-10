@@ -1,10 +1,6 @@
-features
-    cadastro com email e senha
-    mensagems de até 60 caracteres
-
-sprints     inicio  tempo   o que fiz
+data        hora    tempo   tarefa
 31mai2019   17:50   10m     criei o esqueleto do site e baixei o bs2
-01jun2019   09:37   10m     *criei o grid responsivo do bs2 
+01jun2019   09:37   10m     *criei o grid responsivo do bs2
 01jun2019   09:53   10m     criei a migration e o form signup
 01jun2019   10:05   10m     criei o form de signin
 01jun2019   15:35   10m     *adicionar basic/view e basic/controller
@@ -13,7 +9,7 @@ sprints     inicio  tempo   o que fiz
 01jun2019   16:10   10m     signup (die e done)
 01jun2019   16:20   10m     tabela users e alinhamento dos formulários
 01jun2019   16:30   10m     *alinhamento dos formulários
-03jun2019   09:30   10m     signin (die e done) 
+03jun2019   09:30   10m     signin (die e done)
 03jun2019   09:50   10m     nome na navbar e botão de logout
 03jun2019   09:58   10m     caixa de mensagens
 03jun2019   10:09   05m     criar mensagem
@@ -37,27 +33,5 @@ sprints     inicio  tempo   o que fiz
 04jun2019   16:40   10m     *bug da quebra de 1ª linha no código fonte
 04jun2019   16:50   05m     calcular o tempo total de desenvolvimento
 
-*tarefas supérfluas (bugs e tarefas revertidas)
-
-22*10+11*5  =275m   =4h35m no total
-10*10+5*5   =125m   =2h5m poderiam ter sido economizadas
-
-10m     esqueleto do site com bs2
-10m     criei a migration e o form signup
-10m     criei o form de signin
-10m     basic/auth e signup
-10m     signup (die e done)
-10m     tabela users e alinhamento dos formulários
-10m     alinhamento dos formulários
-10m     signin (die e done) 
-10m     nome na navbar e botão de logout
-10m     caixa de mensagens
-05m     criar mensagem
-10m     exibir user->name na mensagem usando join
-05m     exibir a data formatada na mensagem
-05m     enviar a mensagem ao pressionar enter
-10m     apagar mensagem
-05m     exibir mensagens em ordem decrescente de id
-10m     consertar o label do signin responsivo
-05m     ajustar a margin-top e a cor do <h1>
-05m     calcular o tempo total de desenvolvimento
+tempo total gasto = 8*5+4*10 = 80m = 22*10+11*5 = 275m = 4h35m no total
+numero total de tarefas = 33 tarefas
