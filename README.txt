@@ -33,5 +33,5 @@ data        hora    tempo   tarefa
 04jun2019   16:40   10m     *bug da quebra de 1ª linha no código fonte
 04jun2019   16:50   05m     calcular o tempo total de desenvolvimento
 
-tempo total gasto = 8*5+4*10 = 80m = 22*10+11*5 = 275m = 4h35m no total
+tempo total gasto = 8*5+4*10 = 80m = 22*10+11*5 = 275m = 4h35m
 numero total de tarefas = 33 tarefas
